@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc49ff7-ca39-4284-a66c-17d5b20a3b09" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/Entities/CurrentUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/UserData/Hidden/Password.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/UserData/Hidden/Username.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/UserData/UnHidden/DisplayName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entities/UserData/UserData.java" afterDir="false" />
+    <list default="true" id="adc49ff7-ca39-4284-a66c-17d5b20a3b09" name="Changes" comment="Added a bunch of files to the entities package.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entities/UserMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrameworksDrivers/SignUpView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrameworksDrivers/UIElements/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrameworksDrivers/UIElements/Icon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FrameworksDrivers/UIElements/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCases/UserSignUp/UserSignUpGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCases/UserSignUp/UserSignUpInputBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseCases/UserSignUp/UserSignUpRequestModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -36,12 +40,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="UseCases.UserSignUp" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671304605235</updated>
-      <workItem from="1671304606338" duration="3843000" />
+      <workItem from="1671304606338" duration="11486000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1671304759829</created>
@@ -59,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671304759829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a bunch of files to the entities package.">
+      <created>1671308630555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671308630555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Added a bunch of files to the entities package." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a bunch of files to the entities package." />
   </component>
 </project>
